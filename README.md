@@ -1,6 +1,12 @@
 # React Password Checklist
 Follow the checklist to update your password
 
+```sh
+cd react-password-checklist
+npm i
+npm start
+```
+
 ## Preview
 #### Main
 ![Main](https://i.imgur.com/CoXF1OF.png)
@@ -12,9 +18,3 @@ Follow the checklist to update your password
 ## Installation
 
 Install the dependencies and start the client.
-
-```sh
-cd react-password-checklist
-npm i
-npm start
-```
