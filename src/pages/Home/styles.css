@@ -1,0 +1,31 @@
+.btn-update,
+.btn-update:focus,
+.btn-update:active,
+.btn-update:active:focus:not(:disabled):not(.disabled) {
+  color: #fff;
+  background: #1111cb;
+  border-color: #1111cb;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.btn-update:hover,
+.btn-update:focus:hover,
+.btn-update:active:hover,
+.btn-update:active:focus:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background: #3935b5;
+  border-color: #3935b5;
+}
+
+.btn-update:disabled,
+.btn-update button[disabled],
+.btn-update:focus:disabled,
+.btn-update:focus button[disabled],
+.btn-update:active:disabled,
+.btn-update:active button[disabled],
+.btn-update:active:focus:not(:disabled):not(.disabled):disabled,
+.btn-update:active:focus:not(:disabled):not(.disabled) button[disabled] {
+  cursor: not-allowed;
+}
